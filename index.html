@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modern websites for small businesses, creators and growing brands.">
+    <title>Vedant Web Studio | Websites That Grow Businesses</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+
+<header class="navbar" id="top">
+    <a href="#top" class="logo" aria-label="V. Studio home">V<span>.</span>STUDIO</a>
+
+    <nav class="primary-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#work">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">Let's Talk ↗</a>
+    <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open menu">
+        <span></span><span></span>
+    </button>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-content">
+            <div class="badge">
+                <span class="status-dot"></span>
+                AVAILABLE FOR PROJECTS
+            </div>
+
+            <h1>We build websites<br>that <span>grow businesses.</span></h1>
+
+            <p>
+                Modern, responsive websites for small businesses and
+                ambitious brands. Built with creativity and attention to detail.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#contact" class="primary-button">Start a Project ↗</a>
+                <a href="#work" class="secondary-button">Explore Our Work ↓</a>
+            </div>
+
+            <div class="stats">
+                <div>
+                    <strong>100%</strong>
+                    <small>Focused on Quality</small>
+                </div>
+                <div>
+                    <strong>24/7</strong>
+                    <small>Online Presence</small>
+                </div>
+                <div>
+                    <strong>Mobile</strong>
+                    <small>Friendly Design</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="visual-glow"></div>
+            <div class="browser-card">
+                <div class="browser-top">
+                    <div class="browser-dots"><i></i><i></i><i></i></div>
+                    <span>yourbusiness.com</span>
+                </div>
+                <div class="mockup">
+                    <div class="mockup-label">YOUR BRAND. YOUR FUTURE.</div>
+                    <h2>Make your<br>first impression<br><span>count.</span></h2>
+                    <div class="mockup-line"></div>
+                    <div class="mockup-footer">DESIGNED FOR GROWTH ↗</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services section" id="services">
+        <div class="section-heading">
+            <span class="eyebrow">WHAT WE DO</span>
+            <h2>Digital solutions for<br>your next big move.</h2>
+        </div>
+
+        <div class="service-grid">
+            <article class="service-card">
+                <span class="service-number">01</span>
+                <h3>Business Websites</h3>
+                <p>Professional websites that explain your services and help customers reach you.</p>
+                <a href="#contact" class="service-link" data-service="Business Websites">EXPLORE SERVICE ↗</a>
+            </article>
+
+            <article class="service-card">
+                <span class="service-number">02</span>
+                <h3>E-commerce</h3>
+                <p>Modern online storefronts designed to showcase products and support sales.</p>
+                <a href="#contact" class="service-link" data-service="E-commerce">EXPLORE SERVICE ↗</a>
+            </article>
+
+            <article class="service-card">
+                <span class="service-number">03</span>
+                <h3>Landing Pages</h3>
+                <p>Focused landing pages for new businesses, campaigns and product launches.</p>
+                <a href="#contact" class="service-link" data-service="Landing Pages">EXPLORE SERVICE ↗</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="work section" id="work">
+        <div class="work-heading">
+            <div>
+                <span class="eyebrow">SELECTED PROJECT</span>
+                <h2>Built with ambition.</h2>
+            </div>
+            <span class="project-count">PROJECT / 001</span>
+        </div>
+
+        <article class="project-card">
+            <div class="project-preview">
+                <span class="project-brand">CLARIX</span>
+                <div class="project-fashion">
+                    <span>TIMELESS</span>
+                    <strong>STYLE.</strong>
+                    <span>EVERY DAY.</span>
+                </div>
+                <span class="project-caption">PREMIUM FASHION CONCEPT</span>
+            </div>
+
+            <div class="project-details">
+                <span class="eyebrow">E-COMMERCE CONCEPT</span>
+                <h3>Clarix Luxury</h3>
+                <p>A premium fashion storefront concept with a modern, minimalist visual identity.</p>
+                <a href="https://clarix-luxury.preview.emergentagent.com/" target="_blank" rel="noopener noreferrer" class="text-link">VIEW PROJECT ↗</a>
+                <small>Preview hosted by Emergent; final production deployment is pending.</small>
+            </div>
+        </article>
+    </section>
+
+    <section class="contact section" id="contact">
+        <span class="eyebrow">HAVE A PROJECT IN MIND?</span>
+        <h2>Let's build something<br><span>worth remembering.</span></h2>
+        <p>Tell us what you're building. Let's discuss a website that fits your goals and budget.</p>
+
+        <form class="contact-form" id="contact-form">
+            <div class="form-row">
+                <label>
+                    Your name
+                    <input type="text" name="name" autocomplete="name" maxlength="100" required>
+                </label>
+                <label>
+                    Email address
+                    <input type="email" name="email" autocomplete="email" maxlength="254" required>
+                </label>
+            </div>
+            <label>
+                What do you need?
+                <select name="service" id="service">
+                    <option value="">Choose a service (optional)</option>
+                    <option value="Business Websites">Business Websites</option>
+                    <option value="E-commerce">E-commerce</option>
+                    <option value="Landing Pages">Landing Pages</option>
+                    <option value="Something else">Something else</option>
+                </select>
+            </label>
+            <label>
+                Tell us about your project
+                <textarea name="message" rows="4" maxlength="2000" required></textarea>
+            </label>
+            <label class="honeypot" aria-hidden="true" tabindex="-1">
+                Leave this field empty
+                <input type="text" name="company" autocomplete="off" tabindex="-1">
+            </label>
+            <button class="primary-button" type="submit">Send project inquiry ↗</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            <p class="privacy-note">Your details are stored privately so we can respond to your project inquiry.</p>
+        </form>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="#top" class="logo" aria-label="Back to top">V<span>.</span>STUDIO</a>
+    <p>Independent web studio concept · Built with care.</p>
+    <span>© <span id="year"></span> V.STUDIO</span>
+    <a class="admin-link" href="/admin">Studio admin</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
